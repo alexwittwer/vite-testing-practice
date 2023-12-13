@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import reverse from "./modules/reverse";
+import reverse from "../modules/reverse";
 
 test("reverses a string", () => {
   expect(reverse("hello world")).toBe("dlrow olleh");
